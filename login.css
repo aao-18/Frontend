@@ -1,0 +1,95 @@
+body {
+  border: 2px solid black;
+  height: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  background-image: url("./Images/background.jfif");
+  /* opacity: 0.5;*/
+  background-size: cover;
+  background-position: center;
+}
+div {
+  background-color: lightgrey;
+  font-size: x-large;
+}
+.container {
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+.all {
+  color: #2906a7;
+  font-family: "Trirong", serif;
+  font-size: large;
+}
+
+.all p {
+  color: #313030;
+  font-size: small;
+}
+.HMHY {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+input[type="text"]:focus {
+  border: 2px solid #555;
+}
+input {
+  border: 1px solid black;
+  border-radius: 2px;
+  width: 300px;
+  height: 10px;
+  padding: 10px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 0px;
+  color: black;
+  font-size: medium;
+}
+
+button {
+  width: 120px;
+  height: 38px;
+  top: 2604px;
+  left: 616px;
+  border-radius: 24px;
+  font-family: "Trirong";
+  font-weight: 700;
+  font-size: 16px;
+  color: #fdfdfd;
+  background-color: #2d12c5;
+  border: #7796fa;
+}
+button:hover,
+button:active {
+  background-color: #fdfdfd;
+  color: #2d12c5;
+  width: 130px;
+  height: 40px;
+}
+.me {
+  font-size: medium;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  width: 390px;
+  height: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.you {
+  width: 400px;
+  height: 20px;
+  padding: 10px;
+  margin: 10px;
+  font-size: medium;
+}

@@ -1,0 +1,29 @@
+html {
+  font-size: 22px;
+  color: aliceblue;
+}
+a:hover,
+a:active {
+  color: greenyellow;
+}
+html.about {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  font-size: 60px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(43, 226, 165);
+}
+h2,
+h3 {
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(43, 226, 165);
+}
+body {
+  background-image: url(./Images/1764615954625.jpg);
+  background-position: center;
+  background-size: cover;
+}
